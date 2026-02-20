@@ -1,0 +1,19 @@
+// ==========================================
+// 🎵 MUSIC GALAXY CONFIGURATION
+// ==========================================
+// Edit this file to personalize your music galaxy fork!
+
+const CONFIG = {
+    // The name of your galaxy that appears in the browser tab and intro screen
+    pageTitle: "My Music Galaxy",
+
+    // Your name or curator title
+    curatorName: "Music Lover",
+
+    // The introductory message spoken by the character when the page loads
+    introText: "Hello there! Welcome to my MUSICAL GALAXY!\n\nI am your guide in this neighborhood.",
+
+    // The seed used to generate the galaxy layout uniquely
+    // (Changing this will completely reshuffle the spatial placement of clusters)
+    galaxySeed: "MyMusicGalaxySeed"
+};
