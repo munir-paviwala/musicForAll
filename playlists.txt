@@ -1,0 +1,5 @@
+# Add your YouTube Playlist URLs below (one per line).
+# The GitHub Action will automatically fetch the songs and rebuild your galaxy map.
+# Empty lines and lines starting with # are ignored.
+
+https://www.youtube.com/playlist?list=PLkyLhAV5zhSBGCKDkyzH2xPG8n8wTALYS
