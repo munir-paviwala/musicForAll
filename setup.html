@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create Your Music Galaxy</title>
-    <!-- Retro Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+    <!-- Retro Fonts & Clean Sans-Serif Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --bg-deep: #1a0b2e;
@@ -57,23 +59,27 @@
             position: relative;
         }
 
-        /* 8-bit heading inside cards */
+        /* Heading inside cards */
         .card h2 {
-            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            font-size: 24px;
+            font-weight: 700;
             line-height: 1.5;
             color: #ffea00;
             margin-bottom: 20px;
             text-shadow: 2px 2px 0px #000;
             text-transform: uppercase;
-            border-bottom: 2px dashed #333;
+            border-bottom: 2px dashed #444;
             padding-bottom: 15px;
+            display: flex;
+            align-items: center;
         }
 
-        /* VT323 for high readability body text but keeps retro feel */
+        /* Clean, readable body text */
         .card p,
         .card li {
-            font-family: 'VT323', monospace;
-            font-size: 24px;
+            font-family: 'Inter', sans-serif;
+            font-size: 18px;
             color: #ddd;
             line-height: 1.6;
             margin-bottom: 15px;
@@ -199,7 +205,9 @@
             padding: 5px 10px;
             display: inline-block;
             margin-right: 15px;
-            border-radius: 2px;
+            border-radius: 4px;
+            font-family: 'Press Start 2P', cursive;
+            font-size: 14px;
         }
 
         @media (max-width: 600px) {
@@ -241,7 +249,7 @@
 
                 <section class="card">
                     <h2><span class="number-badge">1</span> Get Your Copy</h2>
-                    <p>We use GitHub to host the magic for free. Click 'Use this template' to duplicate the engine into
+                    <p>We use GitHub to host the magic for free. Click 'Clone template' to duplicate the engine into
                         your own private account.</p>
                     <a href="https://github.com/munir-paviwala/musicForAll/generate" target="_blank"
                         class="btn-retro btn-secondary">CLONE TEMPLATE</a>

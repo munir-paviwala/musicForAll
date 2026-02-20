@@ -562,12 +562,6 @@
         <a href="https://github.com/munir-paviwala/musicForAll" target="_blank"
             style="position: absolute; bottom: 20px; left: 20px; color: #444; text-decoration: none; font-family: 'Press Start 2P', cursive; font-size: 8px; z-index: 2000; text-transform: uppercase;">Original
             Engine by Munir Paviwala</a>
-
-        <!-- Make Your Own Galaxy -->
-        <a href="setup.html"
-            style="position: absolute; bottom: 40px; left: 50%; transform: translateX(-50%); color: #00E5FF; text-decoration: none; font-family: 'Press Start 2P', cursive; font-size: 10px; z-index: 2000; text-transform: uppercase; border: 1px dashed #00E5FF; padding: 5px 10px; background: rgba(0,229,255,0.1);">
-            ✨ Make Your Own Galaxy ✨
-        </a>
     </div>
 
     <!-- Hidden Avatar Input -->
@@ -1529,7 +1523,7 @@
                 pose: "normal"
             },
             {
-                text: "Alright! Your journey is about to begin.\n\nYou will spawn at a random location in the map.\n\nEnjoy exploring the musical galaxy!",
+                text: "Alright! Your journey is about to begin.\n\nYou can explore this galaxy now, or choose to build your own!",
                 action: "start_choice"
             }
         ];
@@ -1593,7 +1587,7 @@
             if (s && s.action === "repo_link") {
                 nextArrow.style.display = "block";
             } else if (s && s.action === "start_choice") {
-                showActions("LET'S GO!", null, () => endIntro(), null);
+                showActions("LET'S GO!", "BUILD MY OWN", () => endIntro(), () => window.location.href = 'setup.html');
             } else {
                 nextArrow.style.display = "block";
             }
@@ -1613,7 +1607,7 @@
                 if (s.action === "repo_link") {
                     nextArrow.style.display = "block";
                 } else if (s.action === "start_choice") {
-                    showActions("LET'S GO!", null, () => endIntro(), null);
+                    showActions("LET'S GO!", "BUILD MY OWN", () => endIntro(), () => window.location.href = 'setup.html');
                 } else {
                     nextArrow.style.display = "block";
                 }
