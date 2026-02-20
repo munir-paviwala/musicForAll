@@ -60,6 +60,7 @@ def fetch_playlist_data():
                 urls.append(line)
 
     playlists = []
+    individual_songs = []
     
     ydl_opts = {
         'extract_flat': True,
@@ -74,7 +75,22 @@ def fetch_playlist_data():
             try:
                 print(f"Scraping {url}...")
                 info = ydl.extract_info(url, download=False)
-                if not info or 'entries' not in info:
+                if not info:
+                    continue
+                
+                if 'entries' not in info:
+                    # It's a single video, not a playlist
+                    song_id = info.get('id')
+                    title = info.get('title')
+                    if song_id and title:
+                        individual_songs.append({
+                            'ytId': song_id,
+                            'title': title,
+                            'artist': info.get('uploader', 'Unknown Artist'),
+                            'duration': info.get('duration', 0) if info.get('duration') is not None else 0,
+                            'status': 'active',
+                            'thumbnail': f"https://img.youtube.com/vi/{song_id}/maxresdefault.jpg"
+                        })
                     continue
                 
                 playlist_id = info.get('id', 'unknown')
@@ -108,6 +124,16 @@ def fetch_playlist_data():
                     })
             except Exception as e:
                 print(f"Error fetching {url}: {e}")
+
+    if individual_songs:
+        playlists.append({
+            'id': 'individual_songs',
+            'name': 'Individual Songs',
+            'author': 'Various Artists',
+            'url': 'System Generated',
+            'songCount': len(individual_songs),
+            'songs': individual_songs
+        })
 
     return playlists
 

@@ -11,7 +11,7 @@ const CONFIG = {
     curatorName: "Music Lover",
 
     // The introductory message spoken by the character when the page loads
-    introText: "Hello there! Welcome to my MUSICAL GALAXY!\n\nI am your guide in this neighborhood.",
+    introText: "Hello there! Welcome to my MUSICAL GALAXY!\n\nI am your guide in this neighborhood.\n\nIf you want to create a musical universe of your own, look for the 'Make Your Own Galaxy' button below!",
 
     // The seed used to generate the galaxy layout uniquely
     // (Changing this will completely reshuffle the spatial placement of clusters)
