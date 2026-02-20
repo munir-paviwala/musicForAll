@@ -8,8 +8,11 @@
       "songCount": 14,
       "songs": [
         {
-          "id": "iT3zfv2K42k",
+          "ytId": "iT3zfv2K42k",
           "title": "Naazni",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 179,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/iT3zfv2K42k/maxresdefault.jpg",
           "x": 88,
           "y": -308,
@@ -17,8 +20,11 @@
           "color": "#FF1744"
         },
         {
-          "id": "zdXzQg3bTh4",
+          "ytId": "zdXzQg3bTh4",
           "title": "Gulzar",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 190,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/zdXzQg3bTh4/maxresdefault.jpg",
           "x": -18,
           "y": -278,
@@ -26,8 +32,11 @@
           "color": "#FF1744"
         },
         {
-          "id": "YpmDijlYOSM",
+          "ytId": "YpmDijlYOSM",
           "title": "Noor",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 166,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/YpmDijlYOSM/maxresdefault.jpg",
           "x": 276,
           "y": 131,
@@ -35,8 +44,11 @@
           "color": "#FF1744"
         },
         {
-          "id": "gCx-ifvO52Q",
+          "ytId": "gCx-ifvO52Q",
           "title": "Harkalay",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 228,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/gCx-ifvO52Q/maxresdefault.jpg",
           "x": -219,
           "y": 104,
@@ -44,8 +56,11 @@
           "color": "#FF1744"
         },
         {
-          "id": "6T5PghGjnTo",
+          "ytId": "6T5PghGjnTo",
           "title": "Faqeeran",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 172,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/6T5PghGjnTo/maxresdefault.jpg",
           "x": -269,
           "y": -73,
@@ -53,8 +68,11 @@
           "color": "#FF1744"
         },
         {
-          "id": "zfWlGsiFDzk",
+          "ytId": "zfWlGsiFDzk",
           "title": "Safar",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 217,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/zfWlGsiFDzk/maxresdefault.jpg",
           "x": 373,
           "y": 64,
@@ -62,8 +80,11 @@
           "color": "#FF1744"
         },
         {
-          "id": "BDS87tD4jv4",
+          "ytId": "BDS87tD4jv4",
           "title": "Kashish",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 194,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/BDS87tD4jv4/maxresdefault.jpg",
           "x": 226,
           "y": -113,
@@ -71,8 +92,11 @@
           "color": "#FF1744"
         },
         {
-          "id": "vv19SfZyCzg",
+          "ytId": "vv19SfZyCzg",
           "title": "Cham Cham",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 227,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/vv19SfZyCzg/maxresdefault.jpg",
           "x": 236,
           "y": -199,
@@ -80,8 +104,11 @@
           "color": "#FF1744"
         },
         {
-          "id": "TQqBjSAK52s",
+          "ytId": "TQqBjSAK52s",
           "title": "Ishq Hai",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 313,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/TQqBjSAK52s/maxresdefault.jpg",
           "x": -138,
           "y": 346,
@@ -89,8 +116,11 @@
           "color": "#FF1744"
         },
         {
-          "id": "tNc2coVC2aw",
+          "ytId": "tNc2coVC2aw",
           "title": "Sahiba",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 191,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/tNc2coVC2aw/maxresdefault.jpg",
           "x": -61,
           "y": -194,
@@ -98,8 +128,11 @@
           "color": "#FF1744"
         },
         {
-          "id": "CMY3lppK124",
+          "ytId": "CMY3lppK124",
           "title": "Time Traveller",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 184,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/CMY3lppK124/maxresdefault.jpg",
           "x": -110,
           "y": 194,
@@ -107,8 +140,11 @@
           "color": "#FF1744"
         },
         {
-          "id": "TsCCCOlo-aI",
+          "ytId": "TsCCCOlo-aI",
           "title": "Tere Bina Na Guzara E",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 221,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/TsCCCOlo-aI/maxresdefault.jpg",
           "x": 138,
           "y": 325,
@@ -116,8 +152,11 @@
           "color": "#FF1744"
         },
         {
-          "id": "LGNYno8IsBk",
+          "ytId": "LGNYno8IsBk",
           "title": "Jogan",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 158,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/LGNYno8IsBk/maxresdefault.jpg",
           "x": -216,
           "y": -191,
@@ -125,8 +164,11 @@
           "color": "#FF1744"
         },
         {
-          "id": "mOB1S1qXcPQ",
+          "ytId": "mOB1S1qXcPQ",
           "title": "Heer",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 197,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/mOB1S1qXcPQ/maxresdefault.jpg",
           "x": -135,
           "y": -61,
@@ -143,8 +185,11 @@
       "songCount": 12,
       "songs": [
         {
-          "id": "zfWlGsiFDzk",
+          "ytId": "zfWlGsiFDzk",
           "title": "Safar",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 217,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/zfWlGsiFDzk/maxresdefault.jpg",
           "x": -11,
           "y": -1404,
@@ -152,8 +197,11 @@
           "color": "#F50057"
         },
         {
-          "id": "TWQEjXPVTxo",
+          "ytId": "TWQEjXPVTxo",
           "title": "16 Shots",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 225,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/TWQEjXPVTxo/maxresdefault.jpg",
           "x": -195,
           "y": -1348,
@@ -161,8 +209,11 @@
           "color": "#F50057"
         },
         {
-          "id": "vv19SfZyCzg",
+          "ytId": "vv19SfZyCzg",
           "title": "Cham Cham",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 227,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/vv19SfZyCzg/maxresdefault.jpg",
           "x": -114,
           "y": -775,
@@ -170,8 +221,11 @@
           "color": "#F50057"
         },
         {
-          "id": "Gd6lKtBelZs",
+          "ytId": "Gd6lKtBelZs",
           "title": "Time Traveller",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 184,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/Gd6lKtBelZs/maxresdefault.jpg",
           "x": 176,
           "y": -847,
@@ -179,8 +233,11 @@
           "color": "#F50057"
         },
         {
-          "id": "dbaxgOCMxRA",
+          "ytId": "dbaxgOCMxRA",
           "title": "Morni",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 198,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/dbaxgOCMxRA/maxresdefault.jpg",
           "x": 338,
           "y": -930,
@@ -188,8 +245,11 @@
           "color": "#F50057"
         },
         {
-          "id": "bFp0sX1lswk",
+          "ytId": "bFp0sX1lswk",
           "title": "Sage",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 231,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/bFp0sX1lswk/maxresdefault.jpg",
           "x": -25,
           "y": -757,
@@ -197,8 +257,11 @@
           "color": "#F50057"
         },
         {
-          "id": "5tzXovJu_HE",
+          "ytId": "5tzXovJu_HE",
           "title": "Shubhaarambh (From \"Kai Po Che\")",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 235,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/5tzXovJu_HE/maxresdefault.jpg",
           "x": 170,
           "y": -1127,
@@ -206,8 +269,11 @@
           "color": "#F50057"
         },
         {
-          "id": "3jDQKquMXP4",
+          "ytId": "3jDQKquMXP4",
           "title": "Udd Gaye",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 181,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/3jDQKquMXP4/maxresdefault.jpg",
           "x": -136,
           "y": -1222,
@@ -215,8 +281,11 @@
           "color": "#F50057"
         },
         {
-          "id": "-BJt4fCAtZE",
+          "ytId": "-BJt4fCAtZE",
           "title": "Arz Kiya Hai | Coke Studio Bharat",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 295,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/-BJt4fCAtZE/maxresdefault.jpg",
           "x": -288,
           "y": -1043,
@@ -224,8 +293,11 @@
           "color": "#F50057"
         },
         {
-          "id": "h7w__7NvDUQ",
+          "ytId": "h7w__7NvDUQ",
           "title": "Lagda Nahi",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 191,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/h7w__7NvDUQ/maxresdefault.jpg",
           "x": -230,
           "y": -821,
@@ -233,8 +305,11 @@
           "color": "#F50057"
         },
         {
-          "id": "9swo706JP0c",
+          "ytId": "9swo706JP0c",
           "title": "Meri Meri",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 386,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/9swo706JP0c/maxresdefault.jpg",
           "x": -15,
           "y": -849,
@@ -242,8 +317,11 @@
           "color": "#F50057"
         },
         {
-          "id": "tNc2coVC2aw",
+          "ytId": "tNc2coVC2aw",
           "title": "Sahiba",
+          "artist": "Munirmahedi Paviwala",
+          "duration": 191,
+          "status": "active",
           "thumbnail": "https://img.youtube.com/vi/tNc2coVC2aw/maxresdefault.jpg",
           "x": -174,
           "y": -939,
