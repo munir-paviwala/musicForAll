@@ -91,7 +91,7 @@ def fetch_playlist_data():
                         songs.append({
                             'ytId': song_id,
                             'title': title,
-                            'artist': playlist_author,
+                            'artist': entry.get('uploader', playlist_author),
                             'duration': entry.get('duration', 0) if entry.get('duration') is not None else 0,
                             'status': 'active',
                             'thumbnail': f"https://img.youtube.com/vi/{song_id}/maxresdefault.jpg"
