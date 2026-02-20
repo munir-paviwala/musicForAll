@@ -680,6 +680,7 @@
         // 1. CONFIG & UTILS (From index.html)
         // ==========================================
         const SEED = typeof CONFIG !== 'undefined' ? CONFIG.galaxySeed : "MunirMusicGalaxy";
+        const LOCAL_STORAGE_KEY = `music_galaxy_data_${SEED}`;
         const COLORS = [
             "#FF1744", "#F50057", "#D500F9", "#651FFF", "#2979F3", "#00B0FF",
             "#00E5FF", "#1DE9B6", "#00E676", "#76FF03", "#FFEA00", "#FFC400",
@@ -876,7 +877,7 @@
         // 4. DATA MANAGEMENT (From index.html)
         // ==========================================
         function loadData() {
-            let local = localStorage.getItem('munir_music_data');
+            let local = localStorage.getItem(LOCAL_STORAGE_KEY);
             if (local) {
                 try {
                     console.log("Loaded from LocalStorage");
@@ -916,7 +917,7 @@
         }
 
         function saveToLocalStorage() {
-            localStorage.setItem('munir_music_data', JSON.stringify({
+            localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify({
                 playlists: appState.playlists,
                 anchors: appState.anchors
             }));
@@ -989,7 +990,7 @@
             const btn = this;
             if (btn.classList.contains('confirming')) {
                 // Confirmed
-                localStorage.removeItem('munir_music_data');
+                localStorage.removeItem(LOCAL_STORAGE_KEY);
                 location.reload();
             } else {
                 // First Click
