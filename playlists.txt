@@ -3,5 +3,6 @@
 # Empty lines and lines starting with # are ignored.
 
 https://www.youtube.com/playlist?list=PLkyLhAV5zhSBGCKDkyzH2xPG8n8wTALYS
-http://youtube.com/playlist?list=PLkyLhAV5zhSAr1gjNZk2r9duUFTrxQa-X
 https://www.youtube.com/watch?v=4B1A3quKTE4&list=PLkyLhAV5zhSCCRDsz2tc7AMFt_OHN0Fh5
+http://www.youtube.com/playlist?list=PLkyLhAV5zhSAr1gjNZk2r9duUFTrxQa-X
+
