@@ -877,18 +877,39 @@
         // 4. DATA MANAGEMENT (From index.html)
         // ==========================================
         function loadData() {
-            let local = localStorage.getItem(LOCAL_STORAGE_KEY);
-            if (local) {
-                try {
-                    console.log("Loaded from LocalStorage");
-                    parseData(JSON.parse(local));
-                    return;
-                } catch (e) { console.error("Local data corrupt", e); }
-            }
-            fetch('data.json').then(r => r.json()).then(data => {
-                console.log("Loaded from data.json");
-                parseData(data);
-            }).catch(e => console.warn("No data loaded. Starting fresh."));
+            // Always fetch the freshest data from the server (bypassing browser cache)
+            fetch('data.json?t=' + new Date().getTime())
+                .then(r => r.json())
+                .then(serverData => {
+                    console.log("Loaded fresh data from server.");
+                    
+                    // Check if the curator has unsaved local notes they are working on
+                    let local = localStorage.getItem(LOCAL_STORAGE_KEY);
+                    if (local) {
+                        try {
+                            let localData = JSON.parse(local);
+                            // Overlay local notes onto the server's anchors
+                            if (localData.anchors && serverData.anchors) {
+                                serverData.anchors.forEach(sa => {
+                                    let la = localData.anchors.find(a => a.id === sa.id);
+                                    if (la && la.description) {
+                                        sa.description = la.description;
+                                    }
+                                });
+                            }
+                        } catch (e) { console.error("Local notes corrupt", e); }
+                    }
+                    parseData(serverData);
+                })
+                .catch(e => {
+                    console.warn("Failed to fetch server data, attempting local fallback...");
+                    let local = localStorage.getItem(LOCAL_STORAGE_KEY);
+                    if (local) {
+                        try {
+                            parseData(JSON.parse(local));
+                        } catch (err) {}
+                    }
+                });
         }
 
         function parseData(data) {
