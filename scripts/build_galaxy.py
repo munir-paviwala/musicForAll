@@ -241,6 +241,13 @@ def cluster_simulation(playlists, curator_notes):
         for s_idx, song in enumerate(p['songs']):
             song['x'] = round(placed_songs[s_idx]['x'])
             song['y'] = round(placed_songs[s_idx]['y'])
+            song['offset'] = round(rand() * 100)
+            
+            # Map the color from the parent anchor
+            for a in anchors:
+                if a['id'] == p['id']:
+                    song['color'] = a['color']
+                    break
 
     # Final pass to ensure anchors contain all their songs
     for a in anchors:

@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'playlists.txt'
+      - 'scripts/build_galaxy.py'
   workflow_dispatch:
 
 permissions:
